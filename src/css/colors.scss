@@ -1,0 +1,22 @@
+$colors: (
+  "tertiary": #F9FBFD,
+  "primary-light": #E8F0FE,
+  "primary-dark": #0052EA,
+  "loader": #377dff,
+  "loader-background": #eaecfa
+);
+
+:root {
+  @each $color-name, $color in $colors {
+    --q-#{$color-name}: #{$color};
+  }
+}
+
+@each $color-name, $color in $colors {
+  .text-#{$color-name} {
+    color: var(--q-#{$color-name});
+  }
+  .bg-#{$color-name} {
+    background-color: var(--q-#{$color-name});
+  }
+}

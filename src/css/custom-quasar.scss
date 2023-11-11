@@ -1,0 +1,115 @@
+.bg-gray-300 {
+  background: #f9fafb !important;
+}
+
+.q-field--outlined .q-field__control {
+  padding: 0px !important;
+  min-width: 100%;
+}
+.pre-select .q-field__inner .q-field__control {
+  padding: 0px 10px !important;
+  min-width: 100%;
+  border-radius: 5px !important;
+}
+.builder-select .q-field__inner .q-field__control {
+  padding: 0px 10px !important;
+  min-width: 100%;
+  border-radius: 50px !important;
+  border: 1px solid rgba(231, 234, 243, 0.7);
+  box-shadow: none;
+}
+
+.q-field__bottom {
+  padding: 5px 0px !important;
+}
+
+.pre-select .q-field__native > span {
+  white-space: nowrap;
+  font-size: 12px !important;
+}
+
+.notranslate {
+  // margin-right: 9px !important;
+}
+
+.q-field--error .q-field__control.text-negative {
+  border-width: 0px !important;
+}
+
+.pre-select .q-field__native {
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  padding: 8px 0;
+}
+
+.sidebar-expand {
+  .q-item__section--main {
+    margin-left: -18px !important;
+  }
+  .q-icon {
+    font-size: 18px !important;
+  }
+  .q-item__label {
+    white-space: nowrap !important;
+  }
+}
+.card-dropdown {
+  .q-btn-dropdown__arrow {
+    display: none !important;
+  }
+}
+
+.q-field {
+  [type='text'],
+  [type='email'],
+  [type='url'],
+  [type='password'],
+  [type='number'],
+  [type='date'],
+  [type='datetime-local'],
+  [type='month'],
+  [type='search'],
+  [type='tel'],
+  [type='time'],
+  [type='week'],
+  [multiple],
+  textarea,
+  select {
+    background-color: none !important;
+    background: none !important;
+    padding: none !important;
+    margin-left: 4px;
+    padding-left: 10px;
+    padding-right: 5px;
+  }
+
+  [type='text']:focus,
+  [type='email']:focus,
+  [type='url']:focus,
+  [type='password']:focus,
+  [type='number']:focus,
+  [type='date']:focus,
+  [type='datetime-local']:focus,
+  [type='month']:focus,
+  [type='search']:focus,
+  [type='tel']:focus,
+  [type='time']:focus,
+  [type='week']:focus,
+  [multiple]:focus,
+  textarea:focus,
+  select:focus {
+    --tw-ring-offset-shadow: none !important;
+  }
+}
+
+.edit-block-select .q-field__inner .q-field__control {
+  padding: 0px 10px !important;
+  min-width: 100%;
+  border-radius: 50px !important;
+  border: 1px solid rgba(231, 234, 243, 0.7);
+  box-shadow: none;
+}
+
+.edit-block-select .q-field__inner .q-field__control .q-field__native span {
+  font-size: 12px !important;
+}
